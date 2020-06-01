@@ -1,0 +1,130 @@
+@import "_vars";
+
+// Media down
+@mixin xl {
+  @media only screen and (max-width: $xl - 1) {
+    @content;
+  }
+}
+@mixin lg {
+  @media only screen and (max-width: $lg - 1) {
+    @content;
+  }
+}
+@mixin md {
+  @media only screen and (max-width: $md - 1) {
+    @content;
+  }
+}
+@mixin sm {
+  @media only screen and (max-width: $sm - 1) {
+    @content;
+  }
+}
+@mixin xs {
+  @media only screen and (max-width: $xs - 1) {
+    @content;
+  }
+}
+@mixin xxs {
+  @media only screen and (max-width: $xxs - 1) {
+    @content;
+  }
+}
+
+// Media up
+@mixin xl-up {
+  @media only screen and (min-width: $xl) {
+    @content;
+  }
+}
+@mixin lg-up {
+  @media only screen and (min-width: $lg) {
+    @content;
+  }
+}
+@mixin md-up {
+  @media only screen and (min-width: $md) {
+    @content;
+  }
+}
+@mixin sm-up {
+  @media only screen and (min-width: $sm) {
+    @content;
+  }
+}
+@mixin xs-up {
+  @media only screen and (min-width: $xs) {
+    @content;
+  }
+}
+@mixin xxs-up {
+  @media only screen and (min-width: $xxs) {
+    @content;
+  }
+}
+
+// Initialization right order of output queries
+@mixin initMediaPosition {
+  @include xl {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include lg {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include md {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include sm {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include xs {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include xxs {
+    body {
+      box-sizing: border-box;
+    }
+  }
+
+  @include xxs-up {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include xs-up {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include sm-up {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include md-up {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include lg-up {
+    body {
+      box-sizing: border-box;
+    }
+  }
+  @include xl-up {
+    body {
+      box-sizing: border-box;
+    }
+  }
+}
