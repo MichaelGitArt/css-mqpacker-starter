@@ -1,16 +1,16 @@
 {
   "name": "css-mqpacker-starter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Mixin starter for css-mqpacker with bootstrap breakpoints. Scss mixin for right order of queries",
   "main": "index.scss",
   "dependencies": {},
   "devDependencies": {},
-  "author": "Michael Gitart",
+  "author": "Michael Gitart <michaelgitart@gmail.com>",
   "license": "ISC",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/MichaelGitArt/css-mqpacker-starter.git"
+    "url": "git+https://github.com/MichaelGitArt/css-mqpacker-starter.git"
   },
   "keywords": [
     "css-mqpacker",
