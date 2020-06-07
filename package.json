@@ -1,6 +1,6 @@
 {
   "name": "css-mqpacker-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mixin starter for css-mqpacker with bootstrap breakpoints. Scss mixin for right order of queries",
   "main": "index.scss",
   "dependencies": {},
